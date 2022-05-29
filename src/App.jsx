@@ -1,12 +1,12 @@
 import './App.css';
 import Filters from './components/Filters'
-import Calendar from './components/Calendar';
+import EventsCalendar from './components/EventsCalendar';
 
 function App() {
   return (
     <div className="App">
       <Filters/>
-      <Calendar/>
+      <EventsCalendar/>
     </div>
   );
 }
