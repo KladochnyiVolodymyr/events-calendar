@@ -1,1 +1,2 @@
 export const FILTER_EVENTS = 'FILTER_EVENTS';
+export const INIT_EVENTS = 'INIT_EVENTS';
