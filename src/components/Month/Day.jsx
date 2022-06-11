@@ -1,6 +1,8 @@
 
 export const Day = ({date}) => {
+
+
     return(
-        <div>{date}</div>
+        <div className="column cell">{date}</div>
     )
 }

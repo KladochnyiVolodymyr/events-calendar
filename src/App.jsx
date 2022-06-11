@@ -2,6 +2,7 @@ import './App.css';
 import Filters from './components/Filters'
 import { Month } from './components/Month';
 import { Calendar } from './components/Calendar';
+import  EventsCalendar  from './components/EventsCalendar';
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import {initEvents} from "./redux/actions/eventsActions"
@@ -58,6 +59,7 @@ function App() {
       <Filters/>
       {buildListItems()}
       <Calendar/>
+      <EventsCalendar/>
     </div>
   );
 }
